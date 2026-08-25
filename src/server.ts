@@ -6,7 +6,7 @@ const server = new MCPServer({
   version: "1.0.0",
   description: "An MCP server with a React weather widget.",
   // HTTP only. MCP endpoint path; defaults to /mcp (this example: http://localhost:3000/weather)
-  basePath: "/weather",
+  basePath: "/mcp",
   // Shown to MCP clients. Remote URL, data: URI, or a local file path (e.g. "./src/icon.svg" or "file:///abs/path/icon.png")
   icon: "https://mcpfy.ai/images/mcpfy-fav-icon-min.png",
 });
